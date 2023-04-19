@@ -20,8 +20,8 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Up.."
-    STATUS_DOWNLOADING = "Down.."
+    STATUS_UPLOADING = "Upload"
+    STATUS_DOWNLOADING = "Download"
     STATUS_CLONING = "Cloning.."
     STATUS_WAITING = "Queue"
     STATUS_PAUSED = "Pause"
@@ -34,7 +34,7 @@ class EngineStatus:
     STATUS_ARIA = "Aria2c"
     STATUS_GD = "Google Api"
     STATUS_MEGA = "Mega Api"
-    STATUS_QB = "Bittorrent"
+    STATUS_QB = "qbittorrent"
     STATUS_TG = "Pyrogram"
     STATUS_YT = "YT-dlp"
     STATUS_EXT = "pExtract"
